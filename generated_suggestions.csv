@@ -1,0 +1,193 @@
+dialogue_id,scenario,rank,candidate_id,suggestion,query,direction,blocked_by
+initial_01,initial,1,cuisine_vegetarian,Хочу вегетарианскую кухню,"Место: ужин, центр города, вегетарианская кухня",cuisine,
+initial_01,initial,2,budget_mid,Найди вариант среднего уровня,"Место: ужин, центр города, средний бюджет",budget,
+initial_01,initial,3,atmosphere_cozy,Хочу уютное место,"Место: ужин, центр города, уютная атмосфера",atmosphere,
+initial_01,initial,4,alternative_new,Предложи новый формат,"Место: ужин, центр города, новый формат",alternative,
+initial_02,initial,1,category_park,Покажи парк,"Место: с детьми, выходные, парк",category,outdoor
+initial_02,initial,2,budget_mid,Найди вариант среднего уровня,"Место: с детьми, выходные, средний бюджет",budget,
+initial_02,initial,3,location_outside,Покажи варианты за городом,"Место: с детьми, выходные, за городом",location,outside_city
+initial_02,initial,4,alternative_hidden,Покажи неочевидный вариант,"Место: с детьми, выходные, неочевидный вариант",alternative,
+initial_03,initial,1,category_cafe,Покажи кафе,"Место: свидание, романтическая атмосфера, кафе",category,
+initial_03,initial,2,budget_low,Найди недорогой вариант,"Место: свидание, романтическая атмосфера, невысокий бюджет",budget,premium
+initial_03,initial,3,location_area,Покажи варианты в другом районе,"Место: свидание, романтическая атмосфера, другой район",location,
+initial_03,initial,4,alternative_hidden,Покажи неочевидный вариант,"Место: свидание, романтическая атмосфера, неочевидный вариант",alternative,
+initial_04,initial,1,budget_low,Найди недорогой вариант,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, невысокий бюджет",budget,premium
+initial_04,initial,2,location_center,Покажи варианты в центре,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, центр города",location,center
+initial_04,initial,3,time_morning,Хочу прийти утром,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, утро",time,breakfast
+initial_04,initial,4,alternative_unusual,Покажи необычное место,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, необычное место",alternative,
+initial_05,initial,1,category_restaurant,Покажи ресторан,"Место: культурное мероприятие, ресторан",category,
+initial_05,initial,2,location_area,Покажи варианты в другом районе,"Место: культурное мероприятие, другой район",location,
+initial_05,initial,3,time_evening,Хочу прийти вечером,"Место: культурное мероприятие, вечер",time,
+initial_05,initial,4,alternative_hidden,Покажи неочевидный вариант,"Место: культурное мероприятие, неочевидный вариант",alternative,
+initial_06,initial,1,cuisine_georgian,Хочу грузинскую кухню,"Место: завтрак, утро, грузинская кухня",cuisine,
+initial_06,initial,2,budget_mid,Найди вариант среднего уровня,"Место: завтрак, утро, средний бюджет",budget,
+initial_06,initial,3,location_metro,Покажи варианты рядом с метро,"Место: завтрак, утро, рядом с метро",location,
+initial_06,initial,4,alternative_local,Предложи локальное место,"Место: завтрак, утро, локальное место",alternative,chain
+initial_07,initial,1,activity_walk,Ищу место для прогулки,"Место: активный отдых, с друзьями, прогулка",activity,outdoor
+initial_07,initial,2,budget_high,Найди место высокого уровня,"Место: активный отдых, с друзьями, высокий уровень",budget,low_budget
+initial_07,initial,3,location_center,Покажи варианты в центре,"Место: активный отдых, с друзьями, центр города",location,center
+initial_07,initial,4,alternative_local,Предложи локальное место,"Место: активный отдых, с друзьями, локальное место",alternative,chain
+initial_08,initial,1,category_cafe,Покажи кафе,"Место: культурное мероприятие, вечер, кафе",category,
+initial_08,initial,2,budget_low,Найди недорогой вариант,"Место: культурное мероприятие, вечер, невысокий бюджет",budget,premium
+initial_08,initial,3,location_center,Покажи варианты в центре,"Место: культурное мероприятие, вечер, центр города",location,center
+initial_08,initial,4,alternative_unusual,Покажи необычное место,"Место: культурное мероприятие, вечер, необычное место",alternative,
+initial_09,initial,1,category_cafe,Покажи кафе,"Место: с собакой, кафе",category,
+initial_09,initial,2,location_area,Покажи варианты в другом районе,"Место: с собакой, другой район",location,
+initial_09,initial,3,features_view,Нужно место с красивым видом,"Место: с собакой, красивый вид",features,
+initial_09,initial,4,alternative_hidden,Покажи неочевидный вариант,"Место: с собакой, неочевидный вариант",alternative,
+initial_10,initial,1,category_restaurant,Покажи ресторан,"Место: поздний вечер, ресторан",category,
+initial_10,initial,2,budget_mid,Найди вариант среднего уровня,"Место: поздний вечер, средний бюджет",budget,
+initial_10,initial,3,location_metro,Покажи варианты рядом с метро,"Место: поздний вечер, рядом с метро",location,
+initial_10,initial,4,alternative_local,Предложи локальное место,"Место: поздний вечер, локальное место",alternative,chain
+initial_11,initial,1,category_restaurant,Покажи ресторан,"Место: в одиночку, тихая атмосфера, ресторан",category,
+initial_11,initial,2,budget_mid,Найди вариант среднего уровня,"Место: в одиночку, тихая атмосфера, средний бюджет",budget,
+initial_11,initial,3,location_area,Покажи варианты в другом районе,"Место: в одиночку, тихая атмосфера, другой район",location,
+initial_11,initial,4,alternative_local,Предложи локальное место,"Место: в одиночку, тихая атмосфера, локальное место",alternative,chain
+initial_12,initial,1,category_restaurant,Покажи ресторан,"Место: праздник, с друзьями, ресторан",category,
+initial_12,initial,2,budget_high,Найди место высокого уровня,"Место: праздник, с друзьями, высокий уровень",budget,low_budget
+initial_12,initial,3,features_wifi,Нужно место с Wi-Fi и розетками,"Место: праздник, с друзьями, Wi-Fi и розетки",features,
+initial_12,initial,4,alternative_local,Предложи локальное место,"Место: праздник, с друзьями, локальное место",alternative,chain
+refinement_01,refinement,1,budget_high,Найди место высокого уровня,"Место: ужин, вечер, вегетарианская кухня, центр города, высокий уровень",budget,low_budget
+refinement_01,refinement,2,atmosphere_cozy,Хочу уютное место,"Место: ужин, вечер, вегетарианская кухня, центр города, уютная атмосфера",atmosphere,
+refinement_01,refinement,3,features_accessible,Нужно доступное место,"Место: ужин, вечер, вегетарианская кухня, центр города, доступность для коляски",features,
+refinement_01,refinement,4,alternative_hidden,Покажи неочевидный вариант,"Место: ужин, вечер, вегетарианская кухня, центр города, неочевидный вариант",alternative,
+refinement_02,refinement,1,location_outside,Покажи варианты за городом,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, за городом",location,outside_city
+refinement_02,refinement,2,time_morning,Хочу прийти утром,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, утро",time,breakfast
+refinement_02,refinement,3,budget_mid,Найди вариант среднего уровня,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, средний бюджет",budget,
+refinement_02,refinement,4,alternative_new,Предложи новый формат,"Место: работа с ноутбуком, тихая атмосфера, Wi-Fi и розетки, новый формат",alternative,
+refinement_03,refinement,1,location_area,Покажи варианты в другом районе,"Место: культурное мероприятие, современное искусство, другой район",location,
+refinement_03,refinement,2,time_evening,Хочу прийти вечером,"Место: культурное мероприятие, современное искусство, вечер",time,
+refinement_03,refinement,3,budget_low,Найди недорогой вариант,"Место: культурное мероприятие, современное искусство, невысокий бюджет",budget,premium
+refinement_03,refinement,4,alternative_new,Предложи новый формат,"Место: культурное мероприятие, современное искусство, новый формат",alternative,
+refinement_04,refinement,1,location_center,Покажи варианты в центре,"Место: с друзьями, тихая атмосфера, вечер, центр города",location,center
+refinement_04,refinement,2,budget_mid,Найди вариант среднего уровня,"Место: с друзьями, тихая атмосфера, вечер, средний бюджет",budget,
+refinement_04,refinement,3,features_view,Нужно место с красивым видом,"Место: с друзьями, тихая атмосфера, вечер, красивый вид",features,
+refinement_04,refinement,4,alternative_new,Предложи новый формат,"Место: с друзьями, тихая атмосфера, вечер, новый формат",alternative,
+refinement_05,refinement,1,cuisine_italian,Хочу итальянскую кухню,"Место: с детьми, доступность для коляски, итальянская кухня",cuisine,italian
+refinement_05,refinement,2,budget_mid,Найди вариант среднего уровня,"Место: с детьми, доступность для коляски, средний бюджет",budget,
+refinement_05,refinement,3,location_metro,Покажи варианты рядом с метро,"Место: с детьми, доступность для коляски, рядом с метро",location,
+refinement_05,refinement,4,alternative_hidden,Покажи неочевидный вариант,"Место: с детьми, доступность для коляски, неочевидный вариант",alternative,
+refinement_06,refinement,1,cuisine_italian,Хочу итальянскую кухню,"Место: ужин, вечер, невысокий бюджет, итальянская кухня",cuisine,italian
+refinement_06,refinement,2,location_outside,Покажи варианты за городом,"Место: ужин, вечер, невысокий бюджет, за городом",location,outside_city
+refinement_06,refinement,3,atmosphere_romantic,Хочу романтическую атмосферу,"Место: ужин, вечер, невысокий бюджет, романтическая атмосфера",atmosphere,romantic
+refinement_06,refinement,4,alternative_new,Предложи новый формат,"Место: ужин, вечер, невысокий бюджет, новый формат",alternative,
+refinement_07,refinement,1,budget_low,Найди недорогой вариант,"Место: рядом, невысокий бюджет",budget,premium
+refinement_07,refinement,2,atmosphere_casual,Хочу место без пафоса,"Место: рядом, неформальная атмосфера",atmosphere,premium
+refinement_07,refinement,3,features_view,Нужно место с красивым видом,"Место: рядом, красивый вид",features,
+refinement_07,refinement,4,alternative_unusual,Покажи необычное место,"Место: рядом, необычное место",alternative,
+refinement_08,refinement,1,cuisine_italian,Хочу итальянскую кухню,"Место: ужин, поздний вечер, итальянская кухня",cuisine,italian
+refinement_08,refinement,2,location_center,Покажи варианты в центре,"Место: ужин, поздний вечер, центр города",location,center
+refinement_08,refinement,3,budget_mid,Найди вариант среднего уровня,"Место: ужин, поздний вечер, средний бюджет",budget,
+refinement_08,refinement,4,alternative_unusual,Покажи необычное место,"Место: ужин, поздний вечер, необычное место",alternative,
+refinement_09,refinement,1,cuisine_vegetarian,Хочу вегетарианскую кухню,"Место: свидание, романтическая атмосфера, красивый вид, вегетарианская кухня",cuisine,
+refinement_09,refinement,2,budget_low,Найди недорогой вариант,"Место: свидание, романтическая атмосфера, красивый вид, невысокий бюджет",budget,premium
+refinement_09,refinement,3,location_area,Покажи варианты в другом районе,"Место: свидание, романтическая атмосфера, красивый вид, другой район",location,
+refinement_09,refinement,4,alternative_local,Предложи локальное место,"Место: свидание, романтическая атмосфера, красивый вид, локальное место",alternative,chain
+refinement_10,refinement,1,category_park,Покажи парк,"Место: халяль, парк",category,outdoor
+refinement_10,refinement,2,location_center,Покажи варианты в центре,"Место: халяль, центр города",location,center
+refinement_10,refinement,3,budget_mid,Найди вариант среднего уровня,"Место: халяль, средний бюджет",budget,
+refinement_10,refinement,4,alternative_hidden,Покажи неочевидный вариант,"Место: халяль, неочевидный вариант",alternative,
+refinement_11,refinement,1,location_area,Покажи варианты в другом районе,"Место: с собакой, открытая терраса, другой район",location,
+refinement_11,refinement,2,budget_low,Найди недорогой вариант,"Место: с собакой, открытая терраса, невысокий бюджет",budget,premium
+refinement_11,refinement,3,time_evening,Хочу прийти вечером,"Место: с собакой, открытая терраса, вечер",time,
+refinement_11,refinement,4,alternative_hidden,Покажи неочевидный вариант,"Место: с собакой, открытая терраса, неочевидный вариант",alternative,
+refinement_12,refinement,1,category_restaurant,Покажи ресторан,"Место: с друзьями, вечер, неформальная атмосфера, ресторан",category,
+refinement_12,refinement,2,budget_mid,Найди вариант среднего уровня,"Место: с друзьями, вечер, неформальная атмосфера, средний бюджет",budget,
+refinement_12,refinement,3,location_area,Покажи варианты в другом районе,"Место: с друзьями, вечер, неформальная атмосфера, другой район",location,
+refinement_12,refinement,4,alternative_new,Предложи новый формат,"Место: с друзьями, вечер, неформальная атмосфера, новый формат",alternative,
+rejection_01,rejection,1,cuisine_vegetarian,Хочу вегетарианскую кухню,"Место: ужин, вегетарианская кухня; исключить: рыба и морепродукты",cuisine,
+rejection_01,rejection,2,budget_low,Найди недорогой вариант,"Место: ужин, невысокий бюджет; исключить: рыба и морепродукты",budget,premium
+rejection_01,rejection,3,location_outside,Покажи варианты за городом,"Место: ужин, за городом; исключить: рыба и морепродукты",location,outside_city
+rejection_01,rejection,4,alternative_unusual,Покажи необычное место,"Место: ужин, необычное место; исключить: рыба и морепродукты",alternative,
+rejection_02,rejection,1,cuisine_asian,Хочу азиатскую кухню,"Место: ужин, невысокий бюджет, азиатская кухня; исключить: высокий уровень",cuisine,spicy
+rejection_02,rejection,2,location_area,Покажи варианты в другом районе,"Место: ужин, невысокий бюджет, другой район; исключить: высокий уровень",location,
+rejection_02,rejection,3,atmosphere_quiet,Хочу тихую атмосферу,"Место: ужин, невысокий бюджет, тихая атмосфера; исключить: высокий уровень",atmosphere,loud
+rejection_02,rejection,4,alternative_hidden,Покажи неочевидный вариант,"Место: ужин, невысокий бюджет, неочевидный вариант; исключить: высокий уровень",alternative,
+rejection_03,rejection,1,category_museum,Покажи музей,"Место: вечер, рядом, музей; исключить: за городом",category,culture|museum
+rejection_03,rejection,2,budget_high,Найди место высокого уровня,"Место: вечер, рядом, высокий уровень; исключить: за городом",budget,low_budget
+rejection_03,rejection,3,atmosphere_casual,Хочу место без пафоса,"Место: вечер, рядом, неформальная атмосфера; исключить: за городом",atmosphere,premium
+rejection_03,rejection,4,alternative_hidden,Покажи неочевидный вариант,"Место: вечер, рядом, неочевидный вариант; исключить: за городом",alternative,
+rejection_04,rejection,1,cuisine_italian,Хочу итальянскую кухню,"Место: неформальная атмосфера, итальянская кухня; исключить: сетевые заведения",cuisine,italian
+rejection_04,rejection,2,budget_high,Найди место высокого уровня,"Место: неформальная атмосфера, высокий уровень; исключить: сетевые заведения",budget,low_budget
+rejection_04,rejection,3,location_center,Покажи варианты в центре,"Место: неформальная атмосфера, центр города; исключить: сетевые заведения",location,center
+rejection_04,rejection,4,alternative_new,Предложи новый формат,"Место: неформальная атмосфера, новый формат; исключить: сетевые заведения",alternative,
+rejection_05,rejection,1,category_park,Покажи парк,"Место: с друзьями, тихая атмосфера, парк; исключить: громкие места",category,outdoor
+rejection_05,rejection,2,budget_low,Найди недорогой вариант,"Место: с друзьями, тихая атмосфера, невысокий бюджет; исключить: громкие места",budget,premium
+rejection_05,rejection,3,location_area,Покажи варианты в другом районе,"Место: с друзьями, тихая атмосфера, другой район; исключить: громкие места",location,
+rejection_05,rejection,4,alternative_hidden,Покажи неочевидный вариант,"Место: с друзьями, тихая атмосфера, неочевидный вариант; исключить: громкие места",alternative,
+rejection_06,rejection,1,category_park,Покажи парк,"Место: вечер, парк; исключить: алкогольные места",category,outdoor
+rejection_06,rejection,2,activity_exhibition,Хочу сходить на выставку,"Место: вечер, выставка; исключить: алкогольные места",activity,culture|museum
+rejection_06,rejection,3,location_outside,Покажи варианты за городом,"Место: вечер, за городом; исключить: алкогольные места",location,outside_city
+rejection_06,rejection,4,alternative_unusual,Покажи необычное место,"Место: вечер, необычное место; исключить: алкогольные места",alternative,
+rejection_07,rejection,1,category_museum,Покажи музей,"Место: с детьми, в помещении, музей; исключить: места на улице",category,culture|museum
+rejection_07,rejection,2,budget_high,Найди место высокого уровня,"Место: с детьми, в помещении, высокий уровень; исключить: места на улице",budget,low_budget
+rejection_07,rejection,3,location_center,Покажи варианты в центре,"Место: с детьми, в помещении, центр города; исключить: места на улице",location,center
+rejection_07,rejection,4,alternative_hidden,Покажи неочевидный вариант,"Место: с детьми, в помещении, неочевидный вариант; исключить: места на улице",alternative,
+rejection_08,rejection,1,category_park,Покажи парк,"Место: культурное мероприятие, парк; исключить: музеи",category,outdoor
+rejection_08,rejection,2,budget_high,Найди место высокого уровня,"Место: культурное мероприятие, высокий уровень; исключить: музеи",budget,low_budget
+rejection_08,rejection,3,time_evening,Хочу прийти вечером,"Место: культурное мероприятие, вечер; исключить: музеи",time,
+rejection_08,rejection,4,alternative_new,Предложи новый формат,"Место: культурное мероприятие, новый формат; исключить: музеи",alternative,
+rejection_09,rejection,1,category_cafe,Покажи кафе,"Место: тихая атмосфера, кафе; исключить: людные места",category,
+rejection_09,rejection,2,location_area,Покажи варианты в другом районе,"Место: тихая атмосфера, другой район; исключить: людные места",location,
+rejection_09,rejection,3,budget_high,Найди место высокого уровня,"Место: тихая атмосфера, высокий уровень; исключить: людные места",budget,low_budget
+rejection_09,rejection,4,alternative_local,Предложи локальное место,"Место: тихая атмосфера, локальное место; исключить: людные места",alternative,chain
+rejection_10,rejection,1,budget_low,Найди недорогой вариант,"Место: азиатская кухня, невысокий бюджет; исключить: острая еда",budget,premium
+rejection_10,rejection,2,location_outside,Покажи варианты за городом,"Место: азиатская кухня, за городом; исключить: острая еда",location,outside_city
+rejection_10,rejection,3,atmosphere_casual,Хочу место без пафоса,"Место: азиатская кухня, неформальная атмосфера; исключить: острая еда",atmosphere,premium
+rejection_10,rejection,4,alternative_local,Предложи локальное место,"Место: азиатская кухня, локальное место; исключить: острая еда",alternative,chain
+rejection_11,rejection,1,activity_active,Ищу активный отдых,"Место: вечер, активный отдых; исключить: ночные клубы",activity,
+rejection_11,rejection,2,budget_high,Найди место высокого уровня,"Место: вечер, высокий уровень; исключить: ночные клубы",budget,low_budget
+rejection_11,rejection,3,location_center,Покажи варианты в центре,"Место: вечер, центр города; исключить: ночные клубы",location,center
+rejection_11,rejection,4,alternative_new,Предложи новый формат,"Место: вечер, новый формат; исключить: ночные клубы",alternative,
+rejection_12,rejection,1,category_park,Покажи парк,"Место: выходные, другой район, парк",category,outdoor
+rejection_12,rejection,2,budget_high,Найди место высокого уровня,"Место: выходные, другой район, высокий уровень",budget,low_budget
+rejection_12,rejection,3,time_morning,Хочу прийти утром,"Место: выходные, другой район, утро",time,breakfast
+rejection_12,rejection,4,alternative_local,Предложи локальное место,"Место: выходные, другой район, локальное место",alternative,chain
+direction_01,direction_change,1,location_center,Покажи варианты в центре,"Место: культурное мероприятие, вечер, центр города; исключить: ужин",location,center
+direction_01,direction_change,2,budget_high,Найди место высокого уровня,"Место: культурное мероприятие, вечер, высокий уровень; исключить: ужин",budget,low_budget
+direction_01,direction_change,3,time_weekend,Хочу прийти на выходных,"Место: культурное мероприятие, вечер, выходные; исключить: ужин",time,
+direction_01,direction_change,4,alternative_local,Предложи локальное место,"Место: культурное мероприятие, вечер, локальное место; исключить: ужин",alternative,chain
+direction_02,direction_change,1,location_center,Покажи варианты в центре,"Место: прогулка, центр города",location,center
+direction_02,direction_change,2,time_late,Хочу прийти поздно вечером,"Место: прогулка, поздний вечер",time,nightlife
+direction_02,direction_change,3,features_accessible,Нужно доступное место,"Место: прогулка, доступность для коляски",features,
+direction_02,direction_change,4,alternative_new,Предложи новый формат,"Место: прогулка, новый формат",alternative,
+direction_03,direction_change,1,category_restaurant,Покажи ресторан,"Место: тихая атмосфера, вечер, ресторан",category,
+direction_03,direction_change,2,location_center,Покажи варианты в центре,"Место: тихая атмосфера, вечер, центр города",location,center
+direction_03,direction_change,3,budget_high,Найди место высокого уровня,"Место: тихая атмосфера, вечер, высокий уровень",budget,low_budget
+direction_03,direction_change,4,alternative_local,Предложи локальное место,"Место: тихая атмосфера, вечер, локальное место",alternative,chain
+direction_04,direction_change,1,activity_walk,Ищу место для прогулки,"Место: активный отдых, прогулка; исключить: культурное мероприятие",activity,outdoor
+direction_04,direction_change,2,location_area,Покажи варианты в другом районе,"Место: активный отдых, другой район; исключить: культурное мероприятие",location,
+direction_04,direction_change,3,budget_high,Найди место высокого уровня,"Место: активный отдых, высокий уровень; исключить: культурное мероприятие",budget,low_budget
+direction_04,direction_change,4,alternative_new,Предложи новый формат,"Место: активный отдых, новый формат; исключить: культурное мероприятие",alternative,
+direction_05,direction_change,1,activity_walk,Ищу место для прогулки,"Место: за городом, прогулка; исключить: центр города",activity,outdoor
+direction_05,direction_change,2,time_late,Хочу прийти поздно вечером,"Место: за городом, поздний вечер; исключить: центр города",time,nightlife
+direction_05,direction_change,3,budget_mid,Найди вариант среднего уровня,"Место: за городом, средний бюджет; исключить: центр города",budget,
+direction_05,direction_change,4,alternative_local,Предложи локальное место,"Место: за городом, локальное место; исключить: центр города",alternative,chain
+direction_06,direction_change,1,category_restaurant,Покажи ресторан,"Место: с друзьями, ресторан; исключить: с детьми",category,
+direction_06,direction_change,2,budget_low,Найди недорогой вариант,"Место: с друзьями, невысокий бюджет; исключить: с детьми",budget,premium
+direction_06,direction_change,3,atmosphere_cozy,Хочу уютное место,"Место: с друзьями, уютная атмосфера; исключить: с детьми",atmosphere,
+direction_06,direction_change,4,alternative_unusual,Покажи необычное место,"Место: с друзьями, необычное место; исключить: с детьми",alternative,
+direction_07,direction_change,1,cuisine_georgian,Хочу грузинскую кухню,"Место: неформальная атмосфера, ужин, грузинская кухня; исключить: романтическая атмосфера, высокий уровень",cuisine,
+direction_07,direction_change,2,location_area,Покажи варианты в другом районе,"Место: неформальная атмосфера, ужин, другой район; исключить: романтическая атмосфера, высокий уровень",location,
+direction_07,direction_change,3,budget_high,Найди место высокого уровня,"Место: неформальная атмосфера, ужин, высокий уровень; исключить: романтическая атмосфера, высокий уровень",budget,low_budget
+direction_07,direction_change,4,alternative_new,Предложи новый формат,"Место: неформальная атмосфера, ужин, новый формат; исключить: романтическая атмосфера, высокий уровень",alternative,
+direction_08,direction_change,1,cuisine_georgian,Хочу грузинскую кухню,"Место: ужин, грузинская кухня",cuisine,
+direction_08,direction_change,2,budget_mid,Найди вариант среднего уровня,"Место: ужин, средний бюджет",budget,
+direction_08,direction_change,3,location_outside,Покажи варианты за городом,"Место: ужин, за городом",location,outside_city
+direction_08,direction_change,4,alternative_unusual,Покажи необычное место,"Место: ужин, необычное место",alternative,
+direction_09,direction_change,1,category_park,Покажи парк,"Место: в помещении, парк; исключить: открытая терраса",category,outdoor
+direction_09,direction_change,2,activity_walk,Ищу место для прогулки,"Место: в помещении, прогулка; исключить: открытая терраса",activity,outdoor
+direction_09,direction_change,3,location_metro,Покажи варианты рядом с метро,"Место: в помещении, рядом с метро; исключить: открытая терраса",location,
+direction_09,direction_change,4,alternative_new,Предложи новый формат,"Место: в помещении, новый формат; исключить: открытая терраса",alternative,
+direction_10,direction_change,1,location_area,Покажи варианты в другом районе,"Место: работа с ноутбуком, Wi-Fi и розетки, другой район; исключить: завтрак",location,
+direction_10,direction_change,2,budget_mid,Найди вариант среднего уровня,"Место: работа с ноутбуком, Wi-Fi и розетки, средний бюджет; исключить: завтрак",budget,
+direction_10,direction_change,3,atmosphere_cozy,Хочу уютное место,"Место: работа с ноутбуком, Wi-Fi и розетки, уютная атмосфера; исключить: завтрак",atmosphere,
+direction_10,direction_change,4,alternative_unusual,Покажи необычное место,"Место: работа с ноутбуком, Wi-Fi и розетки, необычное место; исключить: завтрак",alternative,
+direction_11,direction_change,1,budget_mid,Найди вариант среднего уровня,"Место: азиатская кухня, ужин, средний бюджет; исключить: итальянская кухня",budget,
+direction_11,direction_change,2,location_area,Покажи варианты в другом районе,"Место: азиатская кухня, ужин, другой район; исключить: итальянская кухня",location,
+direction_11,direction_change,3,atmosphere_quiet,Хочу тихую атмосферу,"Место: азиатская кухня, ужин, тихая атмосфера; исключить: итальянская кухня",atmosphere,loud
+direction_11,direction_change,4,alternative_hidden,Покажи неочевидный вариант,"Место: азиатская кухня, ужин, неочевидный вариант; исключить: итальянская кухня",alternative,
+direction_12,direction_change,1,cuisine_italian,Хочу итальянскую кухню,"Место: праздник, высокий уровень, итальянская кухня; исключить: невысокий бюджет",cuisine,italian
+direction_12,direction_change,2,location_area,Покажи варианты в другом районе,"Место: праздник, высокий уровень, другой район; исключить: невысокий бюджет",location,
+direction_12,direction_change,3,features_view,Нужно место с красивым видом,"Место: праздник, высокий уровень, красивый вид; исключить: невысокий бюджет",features,
+direction_12,direction_change,4,alternative_hidden,Покажи неочевидный вариант,"Место: праздник, высокий уровень, неочевидный вариант; исключить: невысокий бюджет",alternative,

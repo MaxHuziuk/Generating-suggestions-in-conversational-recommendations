@@ -4,7 +4,3 @@ __pycache__/
 *.py[cod]
 .DS_Store
 .env
-
-generated_suggestions.csv
-suggestions_with_metrics.csv
-context_experiments.csv
