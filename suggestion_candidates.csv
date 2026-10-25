@@ -1,0 +1,40 @@
+candidate_id,direction,suggestion,query_value,blocked_by
+category_cafe,category,Покажи кафе,кафе,
+category_restaurant,category,Покажи ресторан,ресторан,
+category_museum,category,Покажи музей,музей,museum|culture
+category_park,category,Покажи парк,парк,outdoor
+cuisine_italian,cuisine,Хочу итальянскую кухню,итальянская кухня,italian
+cuisine_georgian,cuisine,Хочу грузинскую кухню,грузинская кухня,
+cuisine_asian,cuisine,Хочу азиатскую кухню,азиатская кухня,spicy
+cuisine_vegetarian,cuisine,Хочу вегетарианскую кухню,вегетарианская кухня,
+budget_low,budget,Найди недорогой вариант,невысокий бюджет,premium
+budget_mid,budget,Найди вариант среднего уровня,средний бюджет,
+budget_high,budget,Найди место высокого уровня,высокий уровень,low_budget
+location_center,location,Покажи варианты в центре,центр города,center
+location_metro,location,Покажи варианты рядом с метро,рядом с метро,
+location_area,location,Покажи варианты в другом районе,другой район,
+location_outside,location,Покажи варианты за городом,за городом,outside_city
+time_evening,time,Хочу прийти вечером,вечер,
+time_weekend,time,Хочу прийти на выходных,выходные,
+time_morning,time,Хочу прийти утром,утро,breakfast
+time_late,time,Хочу прийти поздно вечером,поздний вечер,nightlife
+atmosphere_quiet,atmosphere,Хочу тихую атмосферу,тихая атмосфера,loud
+atmosphere_cozy,atmosphere,Хочу уютное место,уютная атмосфера,
+atmosphere_romantic,atmosphere,Хочу романтическую атмосферу,романтическая атмосфера,romantic
+atmosphere_casual,atmosphere,Хочу место без пафоса,неформальная атмосфера,premium
+company_friends,company,Ищу место с друзьями,с друзьями,
+company_children,company,Ищу место с детьми,с детьми,children
+company_date,company,Ищу место для свидания,свидание,romantic
+company_alone,company,Ищу место для одного,в одиночку,
+features_wifi,features,Нужно место с Wi-Fi и розетками,Wi-Fi и розетки,
+features_terrace,features,Нужно место с террасой,открытая терраса,terrace|outdoor
+features_view,features,Нужно место с красивым видом,красивый вид,
+features_accessible,features,Нужно доступное место,доступность для коляски,
+activity_walk,activity,Ищу место для прогулки,прогулка,outdoor
+activity_exhibition,activity,Хочу сходить на выставку,выставка,culture|museum
+activity_active,activity,Ищу активный отдых,активный отдых,
+activity_show,activity,Хочу сходить на представление,представление,
+alternative_unusual,alternative,Покажи необычное место,необычное место,
+alternative_new,alternative,Предложи новый формат,новый формат,
+alternative_hidden,alternative,Покажи неочевидный вариант,неочевидный вариант,
+alternative_local,alternative,Предложи локальное место,локальное место,chain

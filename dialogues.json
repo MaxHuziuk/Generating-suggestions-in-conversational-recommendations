@@ -1,0 +1,1473 @@
+[
+  {
+    "dialogue_id": "initial_01",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу поужинать в центре."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё важно учесть при выборе места?"
+      }
+    ],
+    "known_preferences": [
+      "dinner",
+      "center"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "initial_02",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить с ребёнком в выходные?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно выбрать прогулку, музей или развлекательное место."
+      }
+    ],
+    "known_preferences": [
+      "children",
+      "weekend"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_03",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу место для первого свидания."
+      },
+      {
+        "role": "assistant",
+        "content": "Подберём подходящую обстановку. Что хотелось бы уточнить?"
+      }
+    ],
+    "known_preferences": [
+      "date",
+      "romantic"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_04",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Где можно спокойно поработать с ноутбуком?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно подобрать кафе или коворкинг."
+      }
+    ],
+    "known_preferences": [
+      "work",
+      "quiet",
+      "wifi"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "budget",
+      "location",
+      "time"
+    ]
+  },
+  {
+    "dialogue_id": "initial_05",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Мы впервые в Москве и хотим куда-нибудь сходить."
+      },
+      {
+        "role": "assistant",
+        "content": "Могу предложить прогулки, музеи или необычные места."
+      }
+    ],
+    "known_preferences": [
+      "culture"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "location",
+      "time"
+    ]
+  },
+  {
+    "dialogue_id": "initial_06",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Где рано позавтракать?"
+      },
+      {
+        "role": "assistant",
+        "content": "Давайте уточним район и формат завтрака."
+      }
+    ],
+    "known_preferences": [
+      "breakfast",
+      "morning"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_07",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хотим активно провести день с друзьями."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно рассмотреть спорт, игры или прогулки."
+      }
+    ],
+    "known_preferences": [
+      "active",
+      "friends"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "activity",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_08",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу культурно провести сегодняшний вечер."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно выбрать выставку, музей, театр или концерт."
+      }
+    ],
+    "known_preferences": [
+      "culture",
+      "evening"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_09",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда можно прийти с собакой?"
+      },
+      {
+        "role": "assistant",
+        "content": "Поищем места, где посетителям с питомцами рады."
+      }
+    ],
+    "known_preferences": [
+      "dog"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "location",
+      "features"
+    ]
+  },
+  {
+    "dialogue_id": "initial_10",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить поздно вечером?"
+      },
+      {
+        "role": "assistant",
+        "content": "Подберём места, которые работают допоздна."
+      }
+    ],
+    "known_preferences": [
+      "late"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_11",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу куда-нибудь выбраться один и без шума."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно подобрать спокойное место для отдыха."
+      }
+    ],
+    "known_preferences": [
+      "alone",
+      "quiet"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "initial_12",
+    "scenario": "initial",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу место для дня рождения с друзьями."
+      },
+      {
+        "role": "assistant",
+        "content": "Уточним формат праздника и требования к месту."
+      }
+    ],
+    "known_preferences": [
+      "celebration",
+      "friends"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "features"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_01",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Посоветуй ресторан на вечер."
+      },
+      {
+        "role": "assistant",
+        "content": "Какая кухня и район вам подходят?"
+      },
+      {
+        "role": "user",
+        "content": "Нужна вегетарианская кухня в центре."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё важно при выборе ресторана?"
+      }
+    ],
+    "known_preferences": [
+      "dinner",
+      "evening",
+      "vegetarian",
+      "center"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "budget",
+      "atmosphere",
+      "features"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_02",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Найди кафе для работы."
+      },
+      {
+        "role": "assistant",
+        "content": "Есть требования к обстановке?"
+      },
+      {
+        "role": "user",
+        "content": "Нужно тихое место с розетками и Wi-Fi."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно уточнить район, время или бюджет."
+      }
+    ],
+    "known_preferences": [
+      "work",
+      "quiet",
+      "wifi"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "location",
+      "time",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_03",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу сходить в музей."
+      },
+      {
+        "role": "assistant",
+        "content": "Какое направление вам интересно?"
+      },
+      {
+        "role": "user",
+        "content": "Интересует современное искусство."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё учитывать при поиске?"
+      }
+    ],
+    "known_preferences": [
+      "culture",
+      "modern_art"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "location",
+      "time",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_04",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Посоветуй бар для встречи с друзьями."
+      },
+      {
+        "role": "assistant",
+        "content": "Какую атмосферу вы предпочитаете?"
+      },
+      {
+        "role": "user",
+        "content": "Хочется спокойно поговорить без громкой музыки."
+      },
+      {
+        "role": "assistant",
+        "content": "Уточним район или ценовой уровень?"
+      }
+    ],
+    "known_preferences": [
+      "friends",
+      "quiet",
+      "evening"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "location",
+      "budget",
+      "features"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_05",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Нужно место для семейного обеда."
+      },
+      {
+        "role": "assistant",
+        "content": "Есть особые требования?"
+      },
+      {
+        "role": "user",
+        "content": "Один человек передвигается на коляске."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё важно учесть?"
+      }
+    ],
+    "known_preferences": [
+      "children",
+      "accessible"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_06",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу ресторан на вечер."
+      },
+      {
+        "role": "assistant",
+        "content": "Какой бюджет планируете?"
+      },
+      {
+        "role": "user",
+        "content": "Не больше 1500 рублей на человека."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно уточнить кухню или район."
+      }
+    ],
+    "known_preferences": [
+      "dinner",
+      "evening",
+      "low_budget"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "location",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_07",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу выпить кофе перед встречей."
+      },
+      {
+        "role": "assistant",
+        "content": "Где должна быть кофейня?"
+      },
+      {
+        "role": "user",
+        "content": "Недалеко от метро и без долгой прогулки."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё учитывать?"
+      }
+    ],
+    "known_preferences": [
+      "nearby"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "budget",
+      "atmosphere",
+      "features"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_08",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу место для позднего ужина."
+      },
+      {
+        "role": "assistant",
+        "content": "Насколько поздно вы планируете прийти?"
+      },
+      {
+        "role": "user",
+        "content": "Примерно в одиннадцать вечера."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно уточнить кухню или район."
+      }
+    ],
+    "known_preferences": [
+      "dinner",
+      "late"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "location",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_09",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Нужен ресторан для свидания."
+      },
+      {
+        "role": "assistant",
+        "content": "Какая обстановка вам нравится?"
+      },
+      {
+        "role": "user",
+        "content": "Хочу красивый вид на город."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё важно при выборе?"
+      }
+    ],
+    "known_preferences": [
+      "date",
+      "romantic",
+      "view"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_10",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу место для обеда."
+      },
+      {
+        "role": "assistant",
+        "content": "Есть требования к кухне?"
+      },
+      {
+        "role": "user",
+        "content": "Нужна халяльная еда."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно уточнить район и бюджет."
+      }
+    ],
+    "known_preferences": [
+      "halal"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "location",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_11",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу посидеть в кафе с собакой."
+      },
+      {
+        "role": "assistant",
+        "content": "Какие ещё условия важны?"
+      },
+      {
+        "role": "user",
+        "content": "Лучше на открытой террасе."
+      },
+      {
+        "role": "assistant",
+        "content": "Уточним район или ценовой уровень?"
+      }
+    ],
+    "known_preferences": [
+      "dog",
+      "terrace"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "location",
+      "budget",
+      "time"
+    ]
+  },
+  {
+    "dialogue_id": "refinement_12",
+    "scenario": "refinement",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хотим встретиться компанией вечером."
+      },
+      {
+        "role": "assistant",
+        "content": "Какой формат места нужен?"
+      },
+      {
+        "role": "user",
+        "content": "Нужна неформальная атмосфера без пафоса."
+      },
+      {
+        "role": "assistant",
+        "content": "Что ещё поможет выбрать место?"
+      }
+    ],
+    "known_preferences": [
+      "friends",
+      "evening",
+      "casual"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_01",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Посоветуй ресторан."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно попробовать суши-бар рядом."
+      },
+      {
+        "role": "user",
+        "content": "Не хочу рыбу и морепродукты."
+      },
+      {
+        "role": "assistant",
+        "content": "Понял, исключим такие варианты."
+      }
+    ],
+    "known_preferences": [
+      "dinner"
+    ],
+    "forbidden_preferences": [
+      "seafood"
+    ],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_02",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу место для ужина."
+      },
+      {
+        "role": "assistant",
+        "content": "Есть хороший премиальный ресторан."
+      },
+      {
+        "role": "user",
+        "content": "Это слишком дорого."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда подберём более доступные варианты."
+      }
+    ],
+    "known_preferences": [
+      "dinner",
+      "low_budget"
+    ],
+    "forbidden_preferences": [
+      "premium"
+    ],
+    "missing_slots": [
+      "cuisine",
+      "location",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_03",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить вечером?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно съездить в парк на другом конце города."
+      },
+      {
+        "role": "user",
+        "content": "Так далеко ехать не хочу."
+      },
+      {
+        "role": "assistant",
+        "content": "Будем искать ближе."
+      }
+    ],
+    "known_preferences": [
+      "evening",
+      "nearby"
+    ],
+    "forbidden_preferences": [
+      "outside_city"
+    ],
+    "missing_slots": [
+      "category",
+      "budget",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_04",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Найди кафе."
+      },
+      {
+        "role": "assistant",
+        "content": "Могу предложить популярную сетевую кофейню."
+      },
+      {
+        "role": "user",
+        "content": "Сетевые места не хочется."
+      },
+      {
+        "role": "assistant",
+        "content": "Поищем независимые заведения."
+      }
+    ],
+    "known_preferences": [
+      "casual"
+    ],
+    "forbidden_preferences": [
+      "chain"
+    ],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_05",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу встретиться с друзьями."
+      },
+      {
+        "role": "assistant",
+        "content": "Как насчёт шумного клуба?"
+      },
+      {
+        "role": "user",
+        "content": "Нет, хочется спокойно поговорить."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда исключим громкие места."
+      }
+    ],
+    "known_preferences": [
+      "friends",
+      "quiet"
+    ],
+    "forbidden_preferences": [
+      "loud"
+    ],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_06",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить вечером?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно выбрать бар с коктейлями."
+      },
+      {
+        "role": "user",
+        "content": "Алкогольные места не подходят."
+      },
+      {
+        "role": "assistant",
+        "content": "Подберём другой формат отдыха."
+      }
+    ],
+    "known_preferences": [
+      "evening"
+    ],
+    "forbidden_preferences": [
+      "alcohol"
+    ],
+    "missing_slots": [
+      "category",
+      "activity",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_07",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу прогуляться с ребёнком."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно провести время в открытом парке."
+      },
+      {
+        "role": "user",
+        "content": "На улице дождь, парк не подойдёт."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда будем искать варианты в помещении."
+      }
+    ],
+    "known_preferences": [
+      "children",
+      "indoor"
+    ],
+    "forbidden_preferences": [
+      "outdoor"
+    ],
+    "missing_slots": [
+      "category",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_08",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Посоветуй культурное место."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно сходить в исторический музей."
+      },
+      {
+        "role": "user",
+        "content": "Музеи сегодня не хочется."
+      },
+      {
+        "role": "assistant",
+        "content": "Рассмотрим другие культурные форматы."
+      }
+    ],
+    "known_preferences": [
+      "culture"
+    ],
+    "forbidden_preferences": [
+      "museum"
+    ],
+    "missing_slots": [
+      "category",
+      "budget",
+      "time"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_09",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить за покупками и едой?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно поехать в большой торговый центр."
+      },
+      {
+        "role": "user",
+        "content": "Не люблю переполненные торговые центры."
+      },
+      {
+        "role": "assistant",
+        "content": "Поищем более спокойные варианты."
+      }
+    ],
+    "known_preferences": [
+      "quiet"
+    ],
+    "forbidden_preferences": [
+      "crowded"
+    ],
+    "missing_slots": [
+      "category",
+      "location",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_10",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу ресторан азиатской кухни."
+      },
+      {
+        "role": "assistant",
+        "content": "Есть место с очень острыми блюдами."
+      },
+      {
+        "role": "user",
+        "content": "Острое мне нельзя."
+      },
+      {
+        "role": "assistant",
+        "content": "Учтём это ограничение."
+      }
+    ],
+    "known_preferences": [
+      "asian"
+    ],
+    "forbidden_preferences": [
+      "spicy"
+    ],
+    "missing_slots": [
+      "budget",
+      "location",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_11",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу развлечься вечером."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно сходить в ночной клуб."
+      },
+      {
+        "role": "user",
+        "content": "Ночная жизнь не интересует."
+      },
+      {
+        "role": "assistant",
+        "content": "Предложим другие вечерние занятия."
+      }
+    ],
+    "known_preferences": [
+      "evening"
+    ],
+    "forbidden_preferences": [
+      "nightlife"
+    ],
+    "missing_slots": [
+      "activity",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "rejection_12",
+    "scenario": "rejection",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить в выходные?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно снова погулять в вашем районе."
+      },
+      {
+        "role": "user",
+        "content": "Хочу выбраться в новый район."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда сменим географию поиска."
+      }
+    ],
+    "known_preferences": [
+      "weekend",
+      "new_area"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "budget",
+      "time"
+    ]
+  },
+  {
+    "dialogue_id": "direction_01",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Подбери ресторан для вечера."
+      },
+      {
+        "role": "assistant",
+        "content": "Могу предложить несколько вариантов кухни."
+      },
+      {
+        "role": "user",
+        "content": "Передумал, лучше хочу на выставку."
+      },
+      {
+        "role": "assistant",
+        "content": "Хорошо, переключимся на культурные события."
+      }
+    ],
+    "known_preferences": [
+      "culture",
+      "evening"
+    ],
+    "forbidden_preferences": [
+      "dinner"
+    ],
+    "missing_slots": [
+      "location",
+      "budget",
+      "time"
+    ]
+  },
+  {
+    "dialogue_id": "direction_02",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Найди кафе для встречи."
+      },
+      {
+        "role": "assistant",
+        "content": "Уточните район и бюджет."
+      },
+      {
+        "role": "user",
+        "content": "Лучше давай погуляем в парке."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда подберём место для прогулки."
+      }
+    ],
+    "known_preferences": [
+      "walk"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "location",
+      "time",
+      "features"
+    ]
+  },
+  {
+    "dialogue_id": "direction_03",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу пойти в клуб."
+      },
+      {
+        "role": "assistant",
+        "content": "Какую музыку и район предпочитаете?"
+      },
+      {
+        "role": "user",
+        "content": "Нет, сегодня хочется тихого вечера."
+      },
+      {
+        "role": "assistant",
+        "content": "Переключимся на спокойные места."
+      }
+    ],
+    "known_preferences": [
+      "quiet",
+      "evening"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "category",
+      "location",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "direction_04",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Посоветуй музей."
+      },
+      {
+        "role": "assistant",
+        "content": "Какое направление искусства интересно?"
+      },
+      {
+        "role": "user",
+        "content": "Лучше хочу чего-нибудь активного."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда рассмотрим активные развлечения."
+      }
+    ],
+    "known_preferences": [
+      "active"
+    ],
+    "forbidden_preferences": [
+      "culture"
+    ],
+    "missing_slots": [
+      "activity",
+      "location",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "direction_05",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Куда сходить в центре?"
+      },
+      {
+        "role": "assistant",
+        "content": "Можно подобрать ресторан или мероприятие."
+      },
+      {
+        "role": "user",
+        "content": "Хочу выбраться за город."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда будем искать варианты вне города."
+      }
+    ],
+    "known_preferences": [
+      "outside_city"
+    ],
+    "forbidden_preferences": [
+      "center"
+    ],
+    "missing_slots": [
+      "activity",
+      "time",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "direction_06",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Найди место для семейного дня."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно выбрать парк или детский центр."
+      },
+      {
+        "role": "user",
+        "content": "Планы изменились, идём только взрослой компанией."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда исключим детские форматы."
+      }
+    ],
+    "known_preferences": [
+      "friends"
+    ],
+    "forbidden_preferences": [
+      "children"
+    ],
+    "missing_slots": [
+      "category",
+      "budget",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "direction_07",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу романтический ресторан."
+      },
+      {
+        "role": "assistant",
+        "content": "Уточните кухню и бюджет."
+      },
+      {
+        "role": "user",
+        "content": "Давай лучше простое место без формальностей."
+      },
+      {
+        "role": "assistant",
+        "content": "Подберём неформальный вариант."
+      }
+    ],
+    "known_preferences": [
+      "casual",
+      "dinner"
+    ],
+    "forbidden_preferences": [
+      "romantic",
+      "premium"
+    ],
+    "missing_slots": [
+      "cuisine",
+      "location",
+      "budget"
+    ]
+  },
+  {
+    "dialogue_id": "direction_08",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу пройтись по магазинам."
+      },
+      {
+        "role": "assistant",
+        "content": "Какой торговый район вам удобен?"
+      },
+      {
+        "role": "user",
+        "content": "Передумал, лучше просто поесть."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда переключимся на места для еды."
+      }
+    ],
+    "known_preferences": [
+      "dinner"
+    ],
+    "forbidden_preferences": [],
+    "missing_slots": [
+      "cuisine",
+      "budget",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "direction_09",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу провести день на улице."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно подобрать парк или маршрут."
+      },
+      {
+        "role": "user",
+        "content": "Начался дождь, нужно что-то в помещении."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда найдём крытые варианты."
+      }
+    ],
+    "known_preferences": [
+      "indoor"
+    ],
+    "forbidden_preferences": [
+      "terrace"
+    ],
+    "missing_slots": [
+      "category",
+      "activity",
+      "location"
+    ]
+  },
+  {
+    "dialogue_id": "direction_10",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу место для завтрака."
+      },
+      {
+        "role": "assistant",
+        "content": "Какая кухня и район подходят?"
+      },
+      {
+        "role": "user",
+        "content": "Завтрак отменяется, нужно поработать пару часов."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда поищем место для работы."
+      }
+    ],
+    "known_preferences": [
+      "work",
+      "wifi"
+    ],
+    "forbidden_preferences": [
+      "breakfast"
+    ],
+    "missing_slots": [
+      "location",
+      "budget",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "direction_11",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Хочу итальянский ресторан."
+      },
+      {
+        "role": "assistant",
+        "content": "Уточните район и бюджет."
+      },
+      {
+        "role": "user",
+        "content": "Лучше попробую азиатскую кухню."
+      },
+      {
+        "role": "assistant",
+        "content": "Хорошо, сменим направление поиска."
+      }
+    ],
+    "known_preferences": [
+      "asian",
+      "dinner"
+    ],
+    "forbidden_preferences": [
+      "italian"
+    ],
+    "missing_slots": [
+      "budget",
+      "location",
+      "atmosphere"
+    ]
+  },
+  {
+    "dialogue_id": "direction_12",
+    "scenario": "direction_change",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Ищу недорогое место для праздника."
+      },
+      {
+        "role": "assistant",
+        "content": "Можно подобрать кафе или ресторан."
+      },
+      {
+        "role": "user",
+        "content": "Решили сделать особенный вечер, бюджет можно увеличить."
+      },
+      {
+        "role": "assistant",
+        "content": "Тогда рассмотрим места более высокого уровня."
+      }
+    ],
+    "known_preferences": [
+      "celebration",
+      "premium"
+    ],
+    "forbidden_preferences": [
+      "low_budget"
+    ],
+    "missing_slots": [
+      "cuisine",
+      "location",
+      "features"
+    ]
+  }
+]
